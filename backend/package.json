@@ -1,0 +1,39 @@
+{
+  "name": "salon-os-backend",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/platform-express": "latest",
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "bcrypt": "latest",
+    "class-transformer": "latest",
+    "class-validator": "latest",
+    "dotenv": "^17.4.2",
+    "jsonwebtoken": "latest",
+    "pg": "^8.23.0",
+    "reflect-metadata": "latest",
+    "rxjs": "latest"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "latest",
+    "@nestjs/schematics": "latest",
+    "@nestjs/testing": "latest",
+    "@types/bcrypt": "latest",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/node": "^26.5.0",
+    "prisma": "^7.9.1",
+    "ts-node": "latest",
+    "tsconfig-paths": "latest",
+    "typescript": "^6.0.3"
+  }
+}
